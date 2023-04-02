@@ -41,6 +41,9 @@ body{
     padding-left: 15px;
     padding-right: 15px;
 }
+.menu-open{
+    display: none;
+}
 .header{
     position: relative;
     width: 100%;
@@ -822,4 +825,14 @@ body{
     outline: none;
     border: 1px solid #404BBF;
 }
+@media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+    .caption{
 
+    background-image: 
+    linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)), 
+    url(../images_1/dark-bg-mobile2x.jpg);
+    }
+}
