@@ -24,7 +24,9 @@
     .header_address_tel {
         margin-left: 40px;
     }
-    
+    .header_address_mail{
+        margin-bottom: 0;
+    }
     .header_address_tel_link,
     .header_address_mail_link {
         display: inline-block;
@@ -36,10 +38,6 @@
         padding: 24px 0;
         transition: var(--transition_clr);
     }
-    
-
-
-
     .caption{
         max-width: 1440px;
         margin: 0 auto;
@@ -48,6 +46,9 @@
         rgba(46, 47, 66, 0.7)), 
         url(../images_1/people-office.jpg);
         padding: 188px 0;
+    }
+    .caption_slogan{
+        margin-bottom: 48px;
     }
     .hero{
     padding-top: var(--padding_button);
@@ -204,6 +205,10 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.container-tablet {
+     padding-left: 15px;
+     padding-right: 15px;
+ }
 .box_list_social_link_footer {
     display: flex;
     justify-content: center;

@@ -34,6 +34,7 @@
             </button>
             </div>
             <div class="menu-container js-menu-container" id="mobile-menu">
+                <div class="menu-box">
                 <button class="menu-toggle js-close-menu" type="button">
                     <svg class="burher_close" width="8px" height="8px">
                         <use href="./images_1/symbol.svg#icon-close-black"></use>
@@ -46,9 +47,10 @@
                         <li class="header_item "><a class="header_link" href="">Contacts</a></li>
                     </Ul>
                 </nav>
+                <div class="adres-social">
                 <address class="header_address">
                 <ul class="header_address_list">
-                    <li class="header_address_mail"><a class="header_address_mail_link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+
                     <li class="header_address_tel"><a class="header_address_tel_link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                     <li class="header_address_mail"><a class="header_address_mail_link_a" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 </ul>
@@ -88,8 +90,9 @@
                     </li>
                 </ul>
                 </div>
+                </div>
             </div>
-        </div>
+            </div>
         <div class="container menu-open">
             <nav class="header_navigation_open">
                 <a href="./index.html" class="header_logo"><span class="header_Logo_span">Web</span>Studio</a>
@@ -178,8 +181,7 @@
                     <li class="content_title_list_item">
                         <img srcset="
                         ./images_1/img_2.jpg 1x, 
-                        ./images_1/img-2-2x.jpg 2x" 
-                        src="./images_1/img_1.jpg"  
+                        ./images_1/img-2-2x.jpg 2x"   
                         src="./images_1/img_2.jpg" 
                         alt="smartphone" 
                         width="360">
@@ -555,13 +557,14 @@
                     <textarea class="comment" name="comment" id="comment" placeholder="Text input"></textarea>
                 </div>
                     <label class="permission" for="permission"> <input  type="checkbox" name="permission" id="permission" class="permission_check">
+                        <span class="modal-pol">
                         <span class="form_icon_check">
                             <svg class="form_icon_check_svg" width="10" height="8">
                                 <use href="./images_1/symbol.svg#icon-vector"></use>
                             </svg>
 
                         </span>     
-                        I accept the terms and conditions of the &nbsp;<a class="form_link" href="3">Privacy Policy</a>
+                        I accept the terms and conditions of the &nbsp;<a class="form_link" href="3">Privacy Policy</a></span>
                     </label>
                     <button type="submit" class="send_form">Send</button>
         </form>
